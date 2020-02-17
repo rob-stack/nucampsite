@@ -19,6 +19,7 @@ header h2 {
     padding: 30px;
     background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
     color: white;
+    margin-bottom:0
 }
 .row-content{
     padding: 50px 0;
@@ -27,6 +28,7 @@ header h2 {
 }
 .navbar {
     background-color: #901CAD;
+    margin-bottom:0
 } 
 .tab-content {
     border: 1px solid #DDD;
@@ -39,4 +41,9 @@ header h2 {
 
 .carousel {
     border: solid #5637DD;
+}
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
