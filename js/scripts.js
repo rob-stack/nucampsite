@@ -9,7 +9,15 @@ $(function() {
         $(".carousel").carousel("cycle");
         $("#carouselButton").children("i").removeClass("fa-play");
         $("#carouselButton").children("i").addClass("fa-pause");
-
       }
     });
+  
+    $('#reserveButton').click(function(){
+      $('#reserveModal').modal('toggle');
   });
+
+  $('#loginButton').click(function(){
+    $('#loginModal').modal('toggle');
+});
+
+});
